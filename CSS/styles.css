@@ -1,0 +1,234 @@
+/* secondary color text color: #212121;*/
+/* Primary color text color: #757575; */
+/*Белый olor: #ffffff;*/
+/*Акцент color: #2196F3;*/
+/*Фон кнопок лист 2 color: #F5F4FA;*/
+/* Фон героя и футера background: #2F303A; */
+/* Текст контактов поля арес color: rgba(255, 255, 255, 0.6); */
+/* Цвет текста лого #000000; */
+
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-whit-color: #ffffff;
+  --logo-text-color: #2196f3;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Logo */
+.logo {
+  color: var(--logo-text-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-header {
+  color: #000000;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+.logo-header:hover,
+.logo-footer:hover {
+  color: var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Contact link */
+
+.contact-link .connection {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contact-link .connection:hover,
+.contact-link .connection:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Bchero */
+
+.bchero {
+  background-color: #2f303a;
+}
+
+/* Section */
+.section-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* Feature */
+
+.feature-list .title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.feature-list .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Our team */
+
+.team-list .title {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-list .work {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.bcteam {
+  background-color: #f5f4fa;
+}
+
+/* Footer */
+
+.adress {
+  color: #ffffff;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer.bcfooter .connection-footer {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.footer.bcfooter .connection-footer:hover,
+.footer.bcfooter .connection-footer:focus {
+  color: var(--accent-color);
+}
+
+.bcfooter {
+  background-color: #2f303a;
+}
+
+/* Button */
+
+.button {
+  color: var(--secondary-text-color);
+  background-color: #F5F4FA;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+.button.primery {
+  color: var(--primary-whit-color);
+  background-color: var(--accent-color);
+}
+
+.button.secondary {
+  color: var(--accent-color);
+  background-color: var(--primary-whit-color);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--primary-whit-color);
+  background-color: var(--accent-color);
+}
+
+/* Portfolio */
+
+/* Robots */
+
+.robots-list .title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.robots-list .text {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.robots-list .link {
+  text-decoration: none;
+}
