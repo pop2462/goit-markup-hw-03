@@ -53,7 +53,6 @@ img {
 
 .list-img {
   flex-basis: calc((100% - 3 * 30px) / 3);
-  margin-left: 30px;
 }
 
 .container {
@@ -73,6 +72,11 @@ img {
   padding-top: 94px;
 }
 
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
 /* Logo */
 
 .logo {
@@ -83,11 +87,11 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-  margin-right: 90px;
 }
 
 .logo-header {
   color: #000000;
+  margin-right: 90px;
 }
 
 .logo-footer {
@@ -102,15 +106,13 @@ img {
 /* Header */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #ececec;
 }
 
 /* Site nav */
@@ -123,6 +125,11 @@ img {
 .site-nav {
   display: flex;
   align-items: center;
+}
+
+.site-nav-item {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-nav-item:not(:last-child) {
@@ -210,7 +217,7 @@ img {
 
 .section-title-type {
   display: flex;
-  margin-left: -30px;
+  gap: 30px;
 }
 
 .title {
@@ -220,13 +227,12 @@ img {
 /* Feature */
 
 .feature-list-chapter {
-  flex-basis: calc((100% - 4 * 30px) / 4);
-  margin-left: 30px;
+  flex-basis: calc((100% - 3 * 30px) / 4);
 }
 
 .feature-list {
   display: flex;
-  margin-left: -30px;
+  gap: 30px;
 }
 
 .feature-list .title {
@@ -246,12 +252,11 @@ img {
 
 .member-team {
   display: flex;
-  margin-left: -30px;
+  gap: 30px;
 }
 
 .member-card {
   flex-basis: calc((100% - 4 * 30px) / 4);
-  margin-left: 30px;
 }
 
 .team-description {
@@ -367,19 +372,34 @@ img {
   background-color: var(--accent-color);
 }
 
+.button.hero {
+  padding: 10px 32px;
+}
+
+.button.filter-portfolio {
+  padding: 6px 22px;
+}
+
 /* Portfolio */
 
 /* Filters */
+
+.filters-title {
+  width: 696px;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
 
 .filters {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  margin: -8px;
+  gap: 8px;
 }
 
 .filter {
-  margin-left: 8px;
 }
 
 /* Robots */
@@ -388,7 +408,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
-  margin-left: -30px;
+  margin-top: -30px;
 }
 
 .robots {
