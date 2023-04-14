@@ -87,11 +87,15 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin-right: 90px;
 }
 
 .logo-header {
   color: #000000;
-  margin-right: 90px;
+}
+
+.logo.footer {
+  margin-right: 0px;
 }
 
 .logo-footer {
@@ -128,8 +132,8 @@ img {
 }
 
 .site-nav-item {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .site-nav-item:not(:last-child) {
@@ -143,6 +147,10 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+
+.link {
+  padding: 25px;
 }
 
 .site-nav .link:hover,
