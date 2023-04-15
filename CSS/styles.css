@@ -131,11 +131,6 @@ img {
   align-items: center;
 }
 
-.site-nav-item {
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
-
 .site-nav-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -150,7 +145,8 @@ img {
 }
 
 .link {
-  padding: 25px;
+  padding: 32px 0;
+  display: block;
 }
 
 .site-nav .link:hover,
